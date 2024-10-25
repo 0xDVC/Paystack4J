@@ -1,8 +1,5 @@
 package com.dvc.paystack4j.config;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.yaml.snakeyaml.Yaml;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
@@ -10,6 +7,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Map;
 import java.util.Properties;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.yaml.snakeyaml.Yaml;
 
 public class PaystackConfig {
     private static final Logger log = LoggerFactory.getLogger(PaystackConfig.class);
@@ -42,7 +43,7 @@ public class PaystackConfig {
 
     public PaystackConfig(KeyType keyType) {
         this.keyType = keyType;
-        this.ENV_KEYS = keyType == KeyType.LIVE ? LIVE_ENV_KEYS : TEST_ENV_KEYS;;
+        this.ENV_KEYS = keyType == KeyType.LIVE ? LIVE_ENV_KEYS : TEST_ENV_KEYS;
         loadConfiguration();
     }
 
