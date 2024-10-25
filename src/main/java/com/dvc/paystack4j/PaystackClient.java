@@ -1,29 +1,29 @@
 package com.dvc.paystack4j;
 
 import com.dvc.paystack4j.common.RequestExecutor;
-import com.dvc.paystack4j.core.ApplePay;
-import com.dvc.paystack4j.core.BulkCharges;
-import com.dvc.paystack4j.core.Charge;
-import com.dvc.paystack4j.core.Customers;
-import com.dvc.paystack4j.core.DedicatedVirtualAccounts;
-import com.dvc.paystack4j.core.Disputes;
-import com.dvc.paystack4j.core.Integration;
-import com.dvc.paystack4j.core.Miscellaneous;
-import com.dvc.paystack4j.core.PaymentPages;
-import com.dvc.paystack4j.core.PaymentRequests;
-import com.dvc.paystack4j.core.Plans;
-import com.dvc.paystack4j.core.Products;
-import com.dvc.paystack4j.core.Refunds;
-import com.dvc.paystack4j.core.Settlements;
-import com.dvc.paystack4j.core.SubAccounts;
-import com.dvc.paystack4j.core.Subscriptions;
-import com.dvc.paystack4j.core.Terminal;
-import com.dvc.paystack4j.core.TransactionSplit;
-import com.dvc.paystack4j.core.Transactions;
-import com.dvc.paystack4j.core.Transfers;
-import com.dvc.paystack4j.core.TransfersControl;
-import com.dvc.paystack4j.core.TransfersRecipient;
-import com.dvc.paystack4j.core.Verification;
+import com.dvc.paystack4j.services.ApplePay;
+import com.dvc.paystack4j.services.BulkCharges;
+import com.dvc.paystack4j.services.Charge;
+import com.dvc.paystack4j.services.Customers;
+import com.dvc.paystack4j.services.DedicatedVirtualAccounts;
+import com.dvc.paystack4j.services.Disputes;
+import com.dvc.paystack4j.services.Integration;
+import com.dvc.paystack4j.services.Miscellaneous;
+import com.dvc.paystack4j.services.PaymentPages;
+import com.dvc.paystack4j.services.PaymentRequests;
+import com.dvc.paystack4j.services.Plans;
+import com.dvc.paystack4j.services.Products;
+import com.dvc.paystack4j.services.Refunds;
+import com.dvc.paystack4j.services.Settlements;
+import com.dvc.paystack4j.services.SubAccounts;
+import com.dvc.paystack4j.services.Subscriptions;
+import com.dvc.paystack4j.services.Terminal;
+import com.dvc.paystack4j.services.TransactionSplit;
+import com.dvc.paystack4j.services.Transactions;
+import com.dvc.paystack4j.services.Transfers;
+import com.dvc.paystack4j.services.TransfersControl;
+import com.dvc.paystack4j.services.TransfersRecipient;
+import com.dvc.paystack4j.services.Verification;
 
 /**
  * Primary interface for interacting with the Paystack API.

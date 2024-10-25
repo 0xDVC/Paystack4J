@@ -1,4 +1,4 @@
-package com.dvc.paystack4j.core;
+package com.dvc.paystack4j.services;
 
 public class DedicatedVirtualAccounts {
 }
